@@ -1,8 +1,12 @@
 import React from 'react'
+import Rooms from '../components/Rooms'
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      < Rooms/>
+    </>
   )
 }
 
