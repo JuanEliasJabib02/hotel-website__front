@@ -32,11 +32,12 @@
   }
 
   .btn-primary {
-    @apply bg-accent hover: bg-accent-hover;
+    @apply bg-accent
+    /*  hover: bg-accent-hover; */
   }
 
   .btn-secondary {
-    @apply bg-primary hover: bg-accent;
+    @apply bg-primary
   }
 
   .btn-white {

@@ -54,6 +54,11 @@ const Room = ({ room }) => {
         </p>
       </div>
 
+      <Link
+        to={`/room/${id}`}
+        className='btn btn-secondary hover:bg-accent btn-sm max-w-[240px] mx-auto' >
+        Book now from ${price}
+      </Link>
     </div>
   )
 }
