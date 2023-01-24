@@ -20,9 +20,12 @@ const Rooms = () => {
         </div> 
       )
       }
-     
       
       <div className='container mx-auto lg:px-0'>
+        <div className='text-center'>
+          <div className='font-tertiary uppercase text-15[15px] tracking-6[px]'> Hotel & Spa Adina</div>
+          <h2 className='font-primary text-[45px] mb-4'>Room & Suites</h2>
+        </div>
         <div className='grid grid-cols-1 max-w-sm mx-auto gap-[30px]
         lg:grid-cols-3 lg:max-w-none lg:mx-0'>
         {

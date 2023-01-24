@@ -7,13 +7,12 @@ import CheckIn from '../components/CheckIn'
 import CheckOut from '../components/CheckOut'
 import AdultsDropdown from '../components/AdultsDropdown'
 import KidsDropdown from '../components/KidsDropdown'
+import ScrollToTOp from "../components/ScrollToTop"
 //scroll
-import ScrollToTop from '../components/ScrollToTop'
 //context
 import { RoomContext } from '../context/RoomContext'
 //icon
 import { FaCheck } from 'react-icons/fa'
-import HeroSlider from '../components/HeroSlider'
 
 
 
@@ -28,9 +27,9 @@ const RoomDetails = () => {
 
   const { name, description, facilities, imageLg, price } = room
   
-  console.log(room)
   return (
     <section className='' >
+      < ScrollToTOp />
       <div  className='bg-room bg-cover bg-center h-[560px] relative flex justify-center
       items-center'>
         {/* Overlay */}
