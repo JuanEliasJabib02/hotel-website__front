@@ -17,16 +17,12 @@ const RoomProvider = ({ children }) => {
 
   const [total, setTotal] = useState(0);
 
-  console.log()
-  console.log()
-
-  
   useEffect(() =>   {
     setTotal(Number(adults[0]) + Number(kids[0]));
   }, [adults,kids])
 
   
-  console.log(total)
+
   const handleClick = (e) => {
     e.preventDefault();
     console.log(e)

@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import RoomDetails from "./Pages/RoomDetails";
 import Header from "./components/Header";
 import Footer from "./components/Footer"
+import HeroSlider from "./components/HeroSlider";
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
       element:<RoomDetails/>
     }
   ])
+  HeroSlider
 
   return (
     <div className="App">
