@@ -7,7 +7,6 @@ const Rooms = () => {
 
   const { rooms } = useContext(RoomContext)
   
-  console.log(rooms)
   return (  
     <section className=' py-24 '>
 
