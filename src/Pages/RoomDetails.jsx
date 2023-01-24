@@ -97,6 +97,35 @@ const RoomDetails = () => {
                   Book now for ${price}
                 </button>
             </div>
+            {/* Rules */}
+            <div>
+              <h3 className='h3'>Hotel Rules</h3>
+              <p className='mb-6'>
+                Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Consectetur
+                quae quos mollitia temporibus maxime
+                sapiente doloremque. Ipsa ea iure neque porro odio a exercitationem,
+                doloremque, aliquam mollitia aspernatur libero in!
+              </p>
+              <ul className='flex flex-col gap-y-4'>
+                <li className='flex items-center gap-x-4'>
+                  < FaCheck  className='text-accent'/>
+                  Check-in: 3:00PM - 9:00PM
+                </li>
+                <li className='flex items-center gap-x-4'>
+                  < FaCheck  className='text-accent'/>
+                  Check-out: 10:30 AM
+                </li>
+                <li className='flex items-center gap-x-4'>
+                  < FaCheck  className='text-accent'/>
+                  No pets
+                </li>
+                <li className='flex items-center gap-x-4'>
+                  < FaCheck  className='text-accent'/>
+                  No smoking
+                </li>
+               </ul>
+            </div>
           </div>
         </div>
 
